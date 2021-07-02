@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.lukelorusso:verticalseekbar:1.2.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/588e8a70a7d69fe6f5ed02b30a97e235/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/588e8a70a7d69fe6f5ed02b30a97e235/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lukelorusso/verticalseekbar/1.2.3/a19f659f30c7212b2206ae99095a7f2723f70ee9/verticalseekbar-1.2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

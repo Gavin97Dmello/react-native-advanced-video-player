@@ -1,0 +1,81 @@
+{
+  "_args": [
+    [
+      "react-native-advanced-video-player@1.24.2",
+      "E:\\Zchwantech\\super-portal-app"
+    ]
+  ],
+  "_from": "react-native-advanced-video-player@1.24.2",
+  "_id": "react-native-advanced-video-player@1.24.2",
+  "_inBundle": false,
+  "_integrity": "sha512-nvY2PZrq+VUO9oTQxzOzmnUM/DMT4WxOUlnAx7jdY5jAZW8C+MNGs4D0/umUdDUoDFCm14YmRYzz+OQiN6IX8g==",
+  "_location": "/react-native-advanced-video-player",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-advanced-video-player@1.24.2",
+    "name": "react-native-advanced-video-player",
+    "escapedName": "react-native-advanced-video-player",
+    "rawSpec": "1.24.2",
+    "saveSpec": null,
+    "fetchSpec": "1.24.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-advanced-video-player/-/react-native-advanced-video-player-1.24.2.tgz",
+  "_spec": "1.24.2",
+  "_where": "E:\\Zchwantech\\super-portal-app",
+  "author": {
+    "name": "Hann Zern",
+    "email": "hannzern.sim@zchwantech.com"
+  },
+  "bugs": {
+    "url": "https://github.com/github_account/react-native-advanced-video-player/issues"
+  },
+  "description": "TODO",
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  },
+  "files": [
+    "README.md",
+    "android",
+    "components",
+    "index.ios.js",
+    "index.android.js",
+    "index.js",
+    "ios",
+    "react-native-advanced-video-player.podspec"
+  ],
+  "homepage": "https://github.com/github_account/react-native-advanced-video-player#readme",
+  "keywords": [
+    "react-native",
+    "video-player",
+    "video-controls",
+    "advanced-video-player",
+    "advanced-controls"
+  ],
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "main": "index.js",
+  "name": "@zt-mobile/react-native-advanced-video-player",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x",
+    "react-native-safe-area": "^0.5.1",
+    "react-native-orientation-locker": "^1.1.8",
+    "react-native-home-indicator": "^0.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github_account/react-native-advanced-video-player.git",
+    "baseUrl": "https://github.com/github_account/react-native-advanced-video-player"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "title": "React Native Advanced Video Player",
+  "version": "1.24.2"
+}
