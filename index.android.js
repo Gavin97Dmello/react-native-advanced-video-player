@@ -68,7 +68,6 @@ export default class AndroidVideoPlayer extends Component {
 
     if (lockPortrait && !orientation.toLowerCase().includes("landscape")) {
       setTimeout(() => {
-        Orientation.unlockAllOrientations();
         this.setState({
           lockLandscape: false,
           lockPortrait: false
@@ -169,7 +168,7 @@ export default class AndroidVideoPlayer extends Component {
             lockPortrait: true
           });
         } else {
-          Orientation.unlockAllOrientations();
+          Orientation.lockToPortrait();
           this.setState({
             lockPortrait: false,
             lockLandscape: false
