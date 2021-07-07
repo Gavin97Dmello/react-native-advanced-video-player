@@ -56,9 +56,7 @@ export default class IosVideoPlayer extends Component {
 
   onOrientationDidChange(orientation) {
     const { lockPortrait } = this.state;
-
     if (lockPortrait && !orientation.toLowerCase().includes("landscape")) {
-      Orientation.unlockAllOrientations();
       this.setState({
         lockLandscape: false,
         lockPortrait: false
@@ -173,7 +171,7 @@ export default class IosVideoPlayer extends Component {
             lockPortrait: true
           });
         } else {
-          Orientation.unlockAllOrientations();
+          Orientation.lockToPortrait();
           this.setState({
             lockPortrait: false,
             lockLandscape: false
